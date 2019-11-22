@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Rocketseat Bootcamp
 
-## Available Scripts
+Foi criada uma pequena aplicação que consome
+a API do GitHub. para fazer as requisições
+a API foi utilizado o componente Axios.
 
-In the project directory, you can run:
+O Rotemento de paginas é gerenciado pelo
+React Router Dom.
 
-### `yarn start`
+Os componentes foram estilizados via
+Styled Components.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Screenshots da Aplicação
+Tela Inicial
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![tela-inicial](img/tela_1.png)
 
-### `yarn test`
+Tela de detalhes do repositório
+![tela-inicial](img/tela_2.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Criação do projeto
 
-### `yarn build`
+`yarn create react-app nome-projeto`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Instalações
+Instalação do eslint como dev dependence
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+`yarn add eslint -D`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Inicialização do eslint (Verifica sintax e estilo de código)
 
-### `yarn eject`
+`yarn eslint --init`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Instalação do eslint prettier
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D`
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Aqui o babel-eslint informa o eslint 
+que as ultimas versões do babel e js 
+estão sendo utilizadas no projeto.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Instalação do React Router Dom
 
-## Learn More
+`yarn add react-router-dom`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Faz o roteamento entre páginas no frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Instalação da Styled Components
 
-### Code Splitting
+`yarn add styled-components`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Instalação do Pacotes de Icones
 
-### Analyzing the Bundle Size
+`yarn add react-icons`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Instalação do Axios para consumir API
 
-### Making a Progressive Web App
+`yarn add axios`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Instalação das PropTypes
 
-### Advanced Configuration
+`yarn add prop-types`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
